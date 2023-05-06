@@ -1,0 +1,81 @@
+.footer {
+  background-color: #f8f8f8;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px;
+}
+
+.logo {
+  flex: 1;
+  max-width: 200px;
+}
+
+.logo img {
+  max-width: 100%;
+}
+
+.about {
+  flex: 2;
+  max-width: 400px;
+  margin-right: 40px;
+  padding-left: 150px;
+}
+
+.about h3 {
+  margin-top: 0;
+  text-align: center; /* Added text-align property */
+}
+
+.links {
+  flex: 1;
+  display: flex; /* Added display property */
+  justify-content: flex-end; /* Aligned the content to the far right */
+}
+
+.links ul {
+  list-style: none;
+  padding: 0;
+  margin: 0; /* Removed margin to align to the far right */
+}
+
+.links li {
+  margin-bottom: 10px;
+}
+
+.links a {
+  color: #555;
+  text-decoration: none;
+  font-size: 15px;
+}
+
+.links a:hover {
+  color: #000;
+}
+
+.social {
+  flex: 1;
+  text-align: right;
+}
+
+.social a {
+  margin-left: 10px;
+  color: #555;
+  text-decoration: none;
+}
+
+.social a:hover {
+  color: #000;
+}
+
+
+.tokenscope_logo{
+  width: 8rem;
+  cursor: pointer;
+}
+
+.socmedia_logo{
+  width: 8rem;
+  cursor: pointer;
+}
