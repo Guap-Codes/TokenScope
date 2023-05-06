@@ -1,5 +1,7 @@
 # NFT Explorer
 
+This project is deployed at https://token-scope.vercel.app/
+
 This is an NFT explorer built with React, Wagmi, Alchemy-SDK, and Rainbowkit. The app allows users to search, view, and analyze non-fungible tokens (NFTs) on a specific blockchain network.
 
 ## Features
